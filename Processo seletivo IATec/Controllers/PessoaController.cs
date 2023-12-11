@@ -7,7 +7,7 @@ namespace Processo_seletivo_IATec.Controllers
     //camada que recebe requisicao
     [Route("api/[controller]")]
     [ApiController]
-    public class PessoaController : ControllerBase
+    public class PessoaController : ControllerBase 
     {
         private readonly PessoaServico _pessoaServico;
         //injecao de dependencia
