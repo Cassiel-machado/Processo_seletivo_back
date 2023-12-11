@@ -10,6 +10,7 @@ namespace Processo_seletivo_IATec.Aplicacao
         //foi utilizado em algumas regras de negocio por isso que foi adicionado
         private readonly TelefoneServico telefoneServico;
 
+        //construtor da classe pessoa servico   
         public PessoaServico(IPessoaRepositorio pessoaRepositorio, TelefoneServico telefoneServico)
         {
             _pessoaRepositorio = pessoaRepositorio ?? throw new ArgumentNullException(nameof(pessoaRepositorio));
